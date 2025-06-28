@@ -1,5 +1,5 @@
 #pragma once
-
+// if youre reading this you owe me 100 dallars USD straight to my paypal
 #include "GuiBase.h"
 #include "bakkesmod/plugin/bakkesmodplugin.h"
 #include "bakkesmod/plugin/pluginwindow.h"
@@ -22,6 +22,7 @@ class DisableCrateAnim: public BakkesMod::Plugin::BakkesModPlugin
 	, public SettingsWindowBase
 {
 	void onLoad() override;
+public:
 	bool Set = false;
 public:
 	void RenderSettings() override;
